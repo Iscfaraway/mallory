@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+}
+h4{
+    color: red;
+}
+h6{
+    color: grey;
+}
+#logo {
+    width: 45px;
+    height: 40px;
+    Background-color: transparent;
+}
+.logo{
+    margin: 50px 0 50px 0;
+}
+.logo img{
+    width: 50px;
+    align-content: center;
+
+}
+
+
+#cart {
+    width: 35px;
+    height: 40px;
+}
+
+.slide{
+    width: 100%;
+    opacity: 60%;
+}
+.furniture{
+    display: flex;
+    align-items: center
+}
+
+.centrado{
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado2{
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centrado3{
+    color: white;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.producto img{
+    width: 400px;
+    height: 400px;
+    display: inline-table;
+    align-items: center;
+    border: 3px solid #ccc7c7;
+}
+
+.btn{
+    border-radius: 0;
+}
+.categories button{
+    width: 140px;
+    margin-top: 20px;
+}
+
+.btn-outline-info{
+    margin: 0 10px 0 10px;
+}
+.col-md-4{
+    text-align: center;
+}
+.social img{
+    width: 25px;
+}
